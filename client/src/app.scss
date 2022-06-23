@@ -1,0 +1,47 @@
+.app__container {
+  display: flex;
+  align-items: flex-start;
+
+  .sidebar__container,
+  .sidebarRight__container {
+    width: 20vw;
+    height: 100vh;
+    padding: 20px;
+  }
+
+  .sidebar__container {
+    background: rgba(116, 185, 255, 0.2);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .logo {
+        background: #0984e3;
+        color: #fff;
+        display: inline-block;
+        width: 50px;
+        padding: 7px 0;
+        text-align: center;
+        vertical-align: middle;
+      }
+    }
+
+    .sidebar__buttons {
+      ul {
+        list-style: none;
+      }
+    }
+  }
+
+  .main__container {
+    width: 60vw;
+    height: 100vh;
+    padding: 20px;
+  }
+}

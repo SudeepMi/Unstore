@@ -1,0 +1,32 @@
+.categoryCard__container{
+    border: 2px solid #9a9a9a55;
+    width: 11vw;
+    border-radius: 12px;
+    
+    .MuiButton-root{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        color: rgba(45, 52, 54,1.0);
+        padding: 15px;
+        
+        i{
+            font-size: 2.5em;
+            width: 60px;
+            border-radius: 16px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 2px 0 rgb(145 158 171 / 24%), 0 16px 32px -4px rgb(145 158 171 / 24%)
+        }
+        
+        h2{
+            font-size: 18px;
+            text-transform: initial;
+            font-weight: 500;
+        }
+        
+        p{
+            color: rgba(45, 52, 54,.7);
+        }
+    }
+}

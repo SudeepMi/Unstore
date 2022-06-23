@@ -1,0 +1,16 @@
+.sidebarBtn__container {
+  .MuiButton-root {
+    font-size: 20px;
+    padding: 10px 6px;
+    display: flex;
+    color: rgba(45, 52, 54, 1);
+    align-items: center;
+    justify-content: left;
+    gap: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    min-width: auto;
+    text-align: left;
+    width: 17.5vw;
+  }
+}

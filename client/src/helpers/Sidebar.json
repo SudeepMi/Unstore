@@ -1,0 +1,18 @@
+[
+    {
+        "icon": "ri-dashboard-line",
+        "name": "Dashboard"
+    },
+    {
+        "icon": "ri-share-line",
+        "name": "Shared"
+    },
+    {
+        "icon": "ri-user-star-line",
+        "name": "Starred"
+    },
+    {
+        "icon": "ri-delete-bin-line",
+        "name": "Trash"
+    }
+]

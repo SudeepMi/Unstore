@@ -1,0 +1,43 @@
+.recentFileCard__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #8a8a8a;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+
+    &:hover{
+        background: rgba(116,185,255,0.2);
+        border: 10px;
+    }
+
+    .fileName{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        width: 20vw;
+
+        i{
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            background: rgba(116,185,255,0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(45,52,54);
+            font-size: 22px;
+        }
+    }
+
+    .MuiButton-root{
+        min-width: 0;
+
+        i{
+            color: #8a8a8a;
+            font-size: 18px;
+        }
+    }
+}

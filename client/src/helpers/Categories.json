@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "ri-image-line",
+        "name": "Images",
+        "files": "437"
+    },
+    {
+        "icon": "ri-file-line",
+        "name": "Documents",
+        "files": "456"
+    },
+    {
+        "icon": "ri-disc-line",
+        "name": "Audios",
+        "files": "952"
+    },
+    {
+        "icon": "ri-film-line",
+        "name": "Videos",
+        "files": "143"
+    }
+]
