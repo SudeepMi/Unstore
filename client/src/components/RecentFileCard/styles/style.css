@@ -1,1 +1,54 @@
-.recentFileCard__container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;font-size:15px;color:#8a8a8a;cursor:pointer;border-radius:10px;padding:10px}.recentFileCard__container:hover{background:rgba(116,185,255,0.2);border:10px}.recentFileCard__container .fileName{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:15px;width:20vw}.recentFileCard__container .fileName i{width:50px;height:50px;border-radius:10px;background:rgba(116,185,255,0.2);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:rgb(45,52,54);font-size:22px}.recentFileCard__container .MuiButton-root{min-width:0}.recentFileCard__container .MuiButton-root i{color:#8a8a8a;font-size:18px}
+.recentFileCard__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 15px;
+  color: #8a8a8a;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+}
+.recentFileCard__container:hover {
+  background: rgba(116, 185, 255, 0.2);
+  border: 10px;
+}
+.recentFileCard__container .fileName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  width: 20vw;
+}
+.recentFileCard__container .fileName i {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: rgba(116, 185, 255, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgb(45, 52, 54);
+  font-size: 22px;
+}
+.recentFileCard__container .MuiButton-root {
+  min-width: 0;
+}
+.recentFileCard__container .MuiButton-root i {
+  color: #8a8a8a;
+  font-size: 18px;
+}
