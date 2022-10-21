@@ -29,7 +29,7 @@ export default function Dashboard() {
         <h1 className="title">Category</h1>
         <div className="category__items">
           {Categories.map((data, index) => (
-            <CategoryCard data={data} />
+            <CategoryCard key={index} data={data} />
           ))}
         </div>
       </div>

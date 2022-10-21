@@ -94,6 +94,15 @@
         flex-direction: column;
         height: 45vh;
         overflow-y: scroll;
+      
     }
+    .recentItems::-webkit-scrollbar {
+      width: 10px;
+      background-color: #eeeeee;
+  } 
+  .recentItems::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 13px 0 0px 8px rgba(51, 51, 51, 0.873);
+  }
   }
 }
